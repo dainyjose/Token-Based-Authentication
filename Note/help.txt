@@ -1,0 +1,30 @@
+Pckgs:
+"bcrypt": "^5.0.1",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+    "nodemon": "^2.0.15"
+
+
+npm start
+
+Postman
+http url -http://localhost:6000/api/users/login
+post method
+auth – no auth
+Body – (row,json)
+{
+            "email":"riya@gmail.com",
+            "password":"riya@123"
+        }
+
+Get method
+http url -  http://localhost:6000/api/users/:id
+auth - auth – Bearer Token
+token – (use the generated token)
+Body – (row,json)
+{
+            "email":"riya@gmail.com",
+            "password":"riya123"
+        }
